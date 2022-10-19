@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"module": "CommonJS",
+		"target": "es2020",
+		"rootDir": "./",
+		"outDir": "./dist",
+		"allowJs": false,
+		"sourceMap": false,
+		"pretty": true,
+		"declaration": false,
+		"alwaysStrict": true,
+		"isolatedModules": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"watch": true,
+		"skipLibCheck": true
+	},
+	"exclude": ["./node_modules", "./build"],
+	"include": ["./**/*.js"],
+	"rules": {
+		"@typescript-eslint/ban-ts-ignore": "off"
+	}
+}

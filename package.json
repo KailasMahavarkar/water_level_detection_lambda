@@ -1,0 +1,17 @@
+{
+	"name": "miniProject",
+	"type": "module",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"dependencies": {
+		"blynk-library": "^0.5.4",
+		"express": "^4.18.2",
+		"mongoose": "^6.6.5",
+		"serverless-http": "^3.0.3"
+	},
+	"scripts": {
+		"dev": "nodemon app.local.js",
+		"build": "esbuild --bundle --minify --platform=node --target=node12 --outdir=build ./app.js"
+	}
+}
